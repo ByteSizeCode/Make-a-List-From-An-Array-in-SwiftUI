@@ -7,10 +7,9 @@ The following will not work and will throw the error "Initializer 'init(_:rowCon
 import SwiftUI
 
 struct ContentView: View {
-    @State var str:String = ""
-    @State var aray:[String] = ["a", "b", "c", "d"]
+    @State var array:[String] = ["a", "b", "c", "d"]
     var body: some View {
-        List(aray) { item in
+        List(array) { item in
           Text(item)
         }
         
@@ -35,10 +34,9 @@ Here is the final product:
 import SwiftUI
 
 struct ContentView: View {
-    @State var str:String = ""
-    @State var aray:[String] = ["a", "b", "c", "d"]
+    @State var array:[String] = ["a", "b", "c", "d"]
     var body: some View {
-        List(aray) { item in
+        List(array) { item in
           Text(item)
         }
         
